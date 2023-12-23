@@ -1,0 +1,91 @@
+/*css for adjusting entries*/
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    color: azure;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+}
+
+header h3 {
+    margin: 0;
+    margin-left: 70px;
+    margin-right: 110px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #826A47;
+}
+header .header-line {
+    height: 2px;
+    width: 20%; 
+    border-color: #826A47;
+    background-color:#826A47 ;
+    color: #826A47; 
+}
+
+.p-container {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+
+header a {
+    margin: 0;
+    margin-left: 110px;
+    font-size: larger;
+    color: #826A47;
+    text-decoration: none;
+}
+
+header p {
+    margin: 0;
+    margin-left: 110px;
+    font-size: larger;
+    color: #826A47;
+}
+
+.container .general-ledger{
+    margin-top: 100px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    border: 1px solid azure;
+    padding: 15px;
+    text-align: center;
+}
+
+td{
+    border: 1px solid azure;
+    padding: 15px;
+    text-align: left;
+}
